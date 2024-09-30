@@ -2,8 +2,10 @@ package ie.atu.week3openfeign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
+@EnableFeignClients
 public class Week3OpenFeignApplication {
 
 	public static void main(String[] args) {
